@@ -59,7 +59,3 @@
 #     auth_methods: %w(publickey password)
 #     # password: 'please use keys'
 #   }
-
-role :app, '139.59.21.145'#, '128.199.221.159'
-role :web, '139.59.21.145'#, '128.199.221.159'
-role :db, '139.59.21.145', :primary => true
