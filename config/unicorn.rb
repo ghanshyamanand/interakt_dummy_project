@@ -39,7 +39,7 @@ stderr_path "#{root}/log/unicorn.log"
 stdout_path "#{root}/log/unicorn.log"
 
 # listen 80
-listen "/tmp/unicorn.interakt_app.sock"
+listen "/tmp/unicorn.interakt_dummy_project.sock"
 preload_app true
 worker_processes 5
 timeout 150
