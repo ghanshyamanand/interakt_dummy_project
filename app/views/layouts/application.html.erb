@@ -14,28 +14,189 @@
   <%= render 'links' %>
 </body>
 
-<!--XRAY START 740 /Users/ghanshyam/workspace/fizzy/interakt/app/views/projects/install_code/_script_for_interakt.html.erb-->
+
+
+<!--XRAY START 65 /Users/ghanshyam/workspace/fizzy/interakt/app/views/projects/install_code/_script_for_interakt.html.erb-->
 <!-- Interakt Code for http://app.lvh.me:3001 -->
 <script>
   (function() {
   var interakt = document.createElement('script');
   interakt.type = 'text/javascript'; interakt.async = true;
-  interakt.src = "http://cdn.lvh.me:3000/interakt/b8bbf7f21b2236f5fa62407f4dd2afef.js";
+  interakt.src = "http://cdn.lvh.me:3000/interakt/398f441c6a76eb0c66b93c2d31831ff6.js";
   var scrpt = document.getElementsByTagName('script')[0];
   scrpt.parentNode.insertBefore(interakt, scrpt);
   })()
 </script>
 
+<!--XRAY END 65-->
+
+<!--XRAY END 37119-->
+
+
+<!--XRAY END 752-->
+
+<!-- <script>
+  (function() {
+  var interakt = document.createElement('script');
+  interakt.type = 'text/javascript'; interakt.async = true;
+  interakt.src = "//cdn.interakt.co/interakt/330b68f423482ccd487e084abac52d5d.js";
+  var scrpt = document.getElementsByTagName('script')[0];
+  scrpt.parentNode.insertBefore(interakt, scrpt);
+  })()
+</script>
+ -->
+<!--
+<script>
+ var current_time = (new Date).getTime();
+ var email_id = "pricsdasd@gmail.com";
+ var action = "search";
+`
+ window.mySettings = {
+   email: email_id,
+   created_at: current_time,
+   app_id: '398f441c6a76eb0c66b93c2d31831ff6',
+   action: action,
+   event_time: current_time
+ };
+</script> -->
+
+
+<!-- <script>
+  var current_time = (new Date).getTime();
+  var email_id = "test@test.com";
+  var action = "search";
+
+  window.mySettings = {
+    email: email_id,
+    created_at: current_time,
+    app_id: '398f441c6a76eb0c66b93c2d31831ff6',
+    action1: action,
+    event_time1: current_time
+  };
+</script>
+ -->
+
+<!--XRAY START 2054 /Users/ghanshyam/workspace/fizzy/interakt/app/views/projects/install_code/_script_for_interakt.html.erb-->
+<!-- Interakt Code for http://app.lvh.me:3001 -->
+<!-- <script>
+  (function() {
+  var interakt = document.createElement('script');
+  interakt.type = 'text/javascript'; interakt.async = true;
+  interakt.src = "http://cdn.lvh.me:3000/interakt/a1a233dcfc0965402c0bdcae9ecade54.js";
+  var scrpt = document.getElementsByTagName('script')[0];
+  scrpt.parentNode.insertBefore(interakt, scrpt);
+  })()
+</script> -->
+<!--XRAY END 2054-->
+
+
+<!--XRAY START 4093 /Users/ghanshyam/workspace/fizzy/interakt/app/views/projects/install_code/_script_for_interakt.html.erb-->
+<!-- Interakt Code for http://127.0.0.1:1080/ -->
+
+<!-- <script>
+  (function() {
+  var interakt = document.createElement('script');
+  interakt.type = 'text/javascript'; interakt.async = true;
+  interakt.src = "http://cdn.lvh.me:3000/interakt/f109d0eb8a386b5cedb609173b1145be.js";
+  var scrpt = document.getElementsByTagName('script')[0];
+  scrpt.parentNode.insertBefore(interakt, scrpt);
+  })()
+</script> -->
+
+
+<!--XRAY START 1049 /Users/ghanshyam/workspace/fizzy/interakt/app/views/projects/install_code/_script_for_interakt.html.erb-->
+<!-- Interakt Code for http://127.0.0.1:1080/ -->
+
+<!-- <script>
+  (function() {
+  var interakt = document.createElement('script');
+  interakt.type = 'text/javascript'; interakt.async = true;
+  interakt.src = "http://cdn.lvh.me:3000/interakt/7a573d7eb2f6b65b029664d806f828cd.js";
+  var scrpt = document.getElementsByTagName('script')[0];
+  scrpt.parentNode.insertBefore(interakt, scrpt);
+  })()
+</script>
+ -->
+
+<!-- <script>
+  (function() {
+  var interakt = document.createElement('script');
+  interakt.type = 'text/javascript'; interakt.async = true;
+  interakt.src = "//cdn.interakt.co/interakt/cbe3edc1c271a8cc4a6751e38632b5e8.js";
+  var scrpt = document.getElementsByTagName('script')[0];
+  scrpt.parentNode.insertBefore(interakt, scrpt);
+  })()
+</script> -->
+
+<!-- <script>
+  (function() {
+  var interakt = document.createElement('script');
+  interakt.type = 'text/javascript'; interakt.async = true;
+  interakt.src = "//cdn.interakt.co/interakt/cbe3edc1c271a8cc4a6751e38632b5e8.js";
+  var scrpt = document.getElementsByTagName('script')[0];
+  scrpt.parentNode.insertBefore(interakt, scrpt);
+  })()
+</script> -->
+
+<!--XRAY END 1049-->
+
+
+<!--XRAY END 4093-->
+
+
+<!-- <script>
+  (function() {
+  var interakt = document.createElement('script');
+  interakt.type = 'text/javascript'; interakt.async = true;
+  interakt.src = "//cdn.interakt.co/interakt/cbe3edc1c271a8cc4a6751e38632b5e8.js";
+  var scrpt = document.getElementsByTagName('script')[0];
+  scrpt.parentNode.insertBefore(interakt, scrpt);
+  })()
+</script>
+ -->
 <% if current_user.present? %>
-  <script>
+  <script type="text/javascript">
+
     window.mySettings = {
-    // TODO: The current logged in user's email address.
-    email: '<%= current_user.email %>',
-    // TODO: The current logged in user's sign-up date in Unix epoch time.
-    created_at: <%= current_user.created_at.to_i %>,
-    app_id: 'b8bbf7f21b2236f5fa62407f4dd2afef'
-    };
-  </script>
+// TODO: The current logged in user's email address.
+email: '<%= current_user.email %>',
+// TODO: The current logged in user's sign-up date in Unix epoch time.
+created_at: ' <%= Time.now.to_i %>',
+app_id: 'cbe3edc1c271a8cc4a6751e38632b5e8',
+// Sending Custom Hash with unique_id
+gender: "Male",
+gender_testing1: "Male",
+gender_testing2: "Male",
+gender_testing3: "Male",
+gender_testing4: "Male",
+gender_testing5: "Male",
+gender_testing6: "Male",
+age: '<%= current_user.id %>',
+age_1: '<%= current_user.id %>',
+age_2: '<%= current_user.id %>',
+age_4: '<%= current_user.id %>',
+age_5: '<%= current_user.id %>',
+ip_address: '<%= current_user.id %>',
+ip_address_2: '<%= current_user.id %>',
+ip_address_3: '<%= current_user.id %>',
+ip_address_4: '<%= current_user.id %>',
+ip_address_5: '<%= current_user.id %>',
+ip_address_6: '<%= current_user.id %>',
+sign_in_count: '<%= current_user.sign_in_count %>'
+};
+</script>
+
+<% end %>
+
+
+<% if user_signed_in? %>
+  <li>
+  <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
+  </li>
+<% else %>
+  <li>
+  <%= link_to('Login', new_user_session_path)  %>
+  </li>
 <% end %>
 
 </html>
